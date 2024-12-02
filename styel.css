@@ -1,0 +1,520 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: start;
+}
+
+body{
+    margin: 0; 
+}
+.boss{
+    display: flex;
+}
+aside{
+    background: #1C2434;
+    width: 200px;
+    padding: 20px 25px;
+}
+
+aside > img{
+    width: 180px;
+}
+
+main{
+    background-color: aliceblue;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav input{
+    width: 850px;
+    border: 0;
+    outline: 0;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+nav span h3, p{
+    margin: 0;
+    padding: 0;
+    text-align: end;
+}
+
+.but{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 20px 10px 20px;
+}
+
+.but input{
+    padding: 5px;
+    border: 1px solid darkgray;
+    outline: 0;
+    cursor: pointer;
+}
+
+.but button{
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    border: 1px solid darkgray;
+    cursor: pointer;
+}
+
+.chart{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.line div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0 ;
+}
+
+.line *{
+    margin: 0;
+    padding: 0;
+}
+
+.linenumber{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 20px 45px;
+}
+
+.all-chart{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 93%;
+    height: 27vh;
+    left: 65px;
+    bottom: 95px;
+}
+
+.all-chart div{
+    width: 8px;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px 3px 0 0;
+    animation-name: line;
+    animation-duration: 1s;
+}
+
+@keyframes line {
+    0%{
+        height: 0;
+    }
+}
+
+.statistika{
+    columns: 4;
+    column-rule: 1px solid darkgray;
+    column-gap: 30px;
+    background-color: white;
+    margin: 40px 20px;
+    padding: 20px;
+}
+
+.statistika h1, span, p{
+    text-align: center;
+}
+
+.statistika div div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.statistika h1{
+    font-size: 30px;
+    margin: 0;
+}
+
+.statistika p{
+    color: darkgray;
+}
+
+.statistika span{
+    color: green;
+}
+.statistika .fa-arrow-down{
+    color: red;
+}
+
+.yer{
+    margin: 40px 20px 20px 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.planet{
+    width: 50%;
+    background-color: white;
+    padding: 15px;
+    position: relative;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex h1{
+    font-size: 20px;
+}
+
+.flex button{
+    padding: 10px;
+    border: 1px solid #E7E7E7;
+    background-color: #E7E7E7;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.flex i{
+    cursor: pointer;
+}
+
+
+
+.abs{
+    position: absolute;
+    z-index: 3;
+}
+
+.abs img{
+    width: 30px;
+}
+
+.abs1{
+    top: 140px;
+    left: 400px;
+}
+
+.abs2{
+    top: 205px;
+    left: 410px;
+}
+
+.abs3{
+    top: 220px;
+    left: 470px;
+}
+
+.kate{
+    margin-top: 20px;
+    border-top: 1px solid darkgray;
+    border-width: 110%;
+}
+
+.kate > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suka{
+    width: 450px;
+    height: 20px;
+    background-color: darkgray;
+    border-radius: 5px;
+}
+
+.suka div{
+    background-color: blue;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+.a1{
+    width: 33%;
+}
+
+.a2{
+    width: 26%;
+}.a3{
+    width: 18%;
+}.a4{
+    width: 14%;
+}.a5{
+    width: 10%;
+}.a6{
+    width: 7%;
+}
+
+.chart2{
+    width: 50%;
+}
+
+.boba{
+    background-color: white;
+    width: 93%;
+    padding: 20px;
+}
+
+.boba div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boba h1{
+    margin: 0;
+}
+
+.as{
+    display: flex;
+    margin-top: 30px;
+}
+
+.as div{
+    display: flex;
+    gap: 40px;
+    color: darkgray;
+}
+
+.zay{
+    display: flex;
+    margin-top: 10px;
+}
+
+.zay h2, .blog h2{
+    font-size: 15px;
+}
+
+.zay div{
+    width: 80%;
+    background: #EFF4FB;
+    padding: 0 15px;
+    border-radius: 10px;
+    animation-name: da;
+    animation-duration: 2s;
+}
+
+.blog{
+    display: flex;
+}
+
+.blog span{
+    display: flex;
+    gap: 72px;
+    margin: 10px 0;
+}
+
+.blog div{
+    background-color: #EFF4FB;
+    border-radius: 10px;
+    padding: 0 10px;
+    overflow: hidden;
+    animation-name: da;
+    animation-duration: 2s;
+}
+
+@keyframes  da {
+    0%{
+        width: 0;
+    }
+}
+
+.footer{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.diagramma{
+    width: 40%;
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.text-teg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-teg button{
+    padding: 5px 15px;
+    background: none;
+    border: 1px solid darkgray;
+    cursor: pointer;
+}
+
+.text-teg h1{
+    font-size: 25px;
+}
+
+.bo1, .bo2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.bo1{
+    margin-top: 20px;
+}
+
+.bo2{
+    margin-top: 10px;
+}
+.bo1 b::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 5px 0 0 ;
+}
+
+.bo2 b::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 5px 0 0 ;
+}
+
+.text-chart{
+    background-color: white;
+    width: 60%;
+}
+
+.text-chart h1{
+    margin: 20px;
+    font-size: 25px;
+}
+
+.solo{
+    border-top: 1px solid darkgray;
+    padding: 20px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.solo div{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.solo p{
+    font-size: 20px;
+    color: darkgrey;
+}
+
+.soloo{
+    display: flex;
+    padding: 20px 20px 0 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-top: 1px solid darkgray;
+    align-items: center;
+    height: 40px;
+}
+
+.soloo div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.soloo img{
+    width: 70px;
+}
+
+.soloo b{
+    color: aqua;
+}
+
+.first{
+    margin-top: 30px;
+}
+
+.first b{
+    color: darkgray;
+    font-weight: 500;
+    margin: 10px;
+    display: block;
+}
+
+.first button{
+    width: 100%;
+    padding: 10px 10px;
+    background: none;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first button:hover{
+    background-color: #333A48;
+}
+
+
+.first > div:active div{
+    display: block;
+}
+
+.first p{
+    text-align: start;
+    color: darkgray;
+    margin: 10px 0 0 25px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.d{
+    display: none;
+}
+.first p span{
+    background-color: blue;
+    color: white;
+    padding: 0 3px;
+    border-radius: 4px;
+}
+
+.first p:hover{
+    color: white;
+}
+
+.olds{
+    color: white;
+    margin: 10px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.olds i{
+    margin: 0 5px 0 0 ;
+}
